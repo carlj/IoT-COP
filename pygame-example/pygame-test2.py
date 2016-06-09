@@ -11,7 +11,7 @@ import pygameui as ui
 
 pygame.init()
 pygame.mouse.set_visible(False)
-lcd = pygame.display.set_mode((320, 240))
+lcd = pygame.display.set_mode((800, 480))
 lcd.fill((0,0,0))
 pygame.display.update()
 
@@ -255,7 +255,7 @@ class PiTft(ui.Scene):
 
 
 if __name__ == '__main__':
-    ui.init('Raspberry Pi UI', (320, 240))
+    ui.init('Raspberry Pi UI', (800, 480))
     #pygame.mouse.set_visible(False)
     ui.scene.push(PiTft())
     ui.run()

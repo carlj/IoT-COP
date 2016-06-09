@@ -17,5 +17,6 @@ This is the project for the IoT Cop event.
 * just start the ```install-dependencies.sh``` script
 
 ## Testing pygame
-
+* ```sudo python pygame-test1.py```
+* ```sudo python pygame-test2.py```
 
